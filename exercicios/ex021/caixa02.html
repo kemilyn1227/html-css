@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(43, 17, 53);
+        }
+        header{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(219, 215, 158);
+            padding: 3px;
+           
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(78, 1, 94);
+            font-weight: bold;
+            margin-right: 30px;
+            box-shadow: 1px 1px 1px black;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline
+        
+
+        }
+        main{
+            background-color: rgb(236, 231, 241);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: rgb(165, 115, 175);
+            padding: 10px;
+        }
+        article > aside{
+            background-color: rgb(170, 93, 194);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 100%;
+        }
+        footer>p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>meu site</h1>
+       <nav>
+           <a href="#">link</a>
+           <a href="#">link</a>
+           <a href="#">link</a>
+           <a href="#">link</a>
+           <a href="#">link</a>
+        </nav>
+
+    </header>
+    <main>
+       <section id="assuntos"></section>
+            <p>esportes</p>
+       <section id="notícias"></section>
+         <article>
+            <h2>noticia sobre o brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolore ducimus, impedit laboriosam doloribus quas repellendus sapiente exercitationem amet architecto, illum assumenda sed tempora numquam ipsum explicabo? Provident, itaque facilis.</p>
+            <aside>
+                <p>artigo escrito por jose da silva</p>
+            </aside>
+
+         </article>
+        
+    </main>
+    <footer >
+        
+        <p>desenvolvido pelo cursoemvideo</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
