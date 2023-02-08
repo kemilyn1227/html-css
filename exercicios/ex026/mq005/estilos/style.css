@@ -8,7 +8,7 @@
 
 html body{
 
-    background-color: rgb(142, 223, 196);
+    background-color: rgb(94, 146, 129);
 
 }
 
@@ -23,7 +23,7 @@ header h1{
 span#burguer{
     background-color: rgb(30, 59, 50);
     display: block;
-    color: white;
+    color: rgb(252, 251, 251);
     text-align: center;
     padding: 10px;
     cursor: pointer;
